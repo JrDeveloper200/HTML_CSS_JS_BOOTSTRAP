@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Add icones sociais library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Página Inicial</title>
+    <link rel="icon" href="imagens/mintlogo.svg">
+</head>
+
+<body>
+    <!-- Inicio do Cabeçalho -->
+    <header>
+        <!--Barra de Navegação-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-opacidade">
+
+            <!-- Div container para alinhar todos os elementos da barra com a página de forma responsiva -->
+            <!-- Inicio da DIV Container -->
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="imagens/logomint.png">
+                </a>
+
+                <!--Botão de Navegação-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <!-- Fim do Botão de Navegação -->
+
+                <!--Inicio da DIV Menu-->
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <!-- Inicio do Menu -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="quemSomos.html" class="nav-link">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contato.html" class="nav-link">Contato</a>
+                        </li>
+                        <li class="nav-item dropdown active">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Downloads</a>
+                            <div class="dropdown-menu">
+                                <a href="http://mint.c3sl.ufpr.br/stable/19.3/linuxmint-19.3-cinnamon-64bit.iso"
+                                    class="dropdown-item">Cinnamon-64bit</a>
+                                <a href="http://mint.c3sl.ufpr.br/stable/19.3/linuxmint-19.3-mate-64bit.iso"
+                                    class="dropdown-item">Mate-64bit</a>
+                                <a href="http://mint.c3sl.ufpr.br/stable/19.3/linuxmint-19.3-xfce-64bit.iso"
+                                    class="dropdown-item">XFCE-64bit - Lite</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Fim do Menu -->
+            </div>
+            <!-- Fim da DIV Menu -->
+            </div>
+            <!-- Fim da DIV Container -->
+        </nav>
+        <!-- Fim da Barra de Navegação -->
+    </header>
+    <!-- Fim do Cabeçalho -->
+
+
+    <!-- Inicio do Conteúdo do Site -->
+    <br><br><br><br><br>
+    <!-- Seções do Site ou elemento que o compoem como artigos, textos e imagens -->
+    <!-- Inicio da Seção 1 -->
+    <section id="secaoUm" class="d-flex">
+        <!-- Container é o que contem o conteudo dentro deles. Aqui conseguimos colocar o responsividade do bootstrap -->
+        <div class="container align-self-center">
+            <!-- Inicio do Row -->
+            <div class="row">
+                <!-- Inicio do Col medio de 12 grids -->
+                <div class="col-md-12 text-center">
+                    <div id="carousel-Mint" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselMint" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselMint" data-slide-to="1"></li>
+                            <li data-target="#carouselMint" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h1>Cinnamon Edition</h1>
+                                <a href="http://mint.c3sl.ufpr.br/stable/19.3/linuxmint-19.3-cinnamon-64bit.iso"
+                                    class="btn btn-customizado btn-preto btn-lg">
+                                    Baixe Agora!
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <h1>Mate Edition</h1>
+                                <a href="http://mint.c3sl.ufpr.br/stable/19.3/linuxmint-19.3-mate-64bit.iso"
+                                    class="btn btn-customizado btn-preto btn-lg">
+                                    Baixe Agora!
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <h1>XFCE Edition</h1>
+                                <a href="http://mint.c3sl.ufpr.br/stable/19.3/linuxmint-19.3-xfce-64bit.iso"
+                                    class="btn btn-customizado btn-preto btn-lg">
+                                    Baixe Agora!
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Fim do Inner -->
+
+                        <!-- Controle de Slides -->
+                        <a class="carousel-control-prev" href="#carousel-Mint" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+
+                        <a class="carousel-control-next" href="#carousel-Mint" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                    <!-- Fim do Carrossel -->
+                </div>
+                <!-- Fim do Col -->
+            </div>
+            <!-- Fim do Row -->
+        </div>
+        <!-- Fim do Container -->
+    </section>
+    <!-- Fim da Seção 1 -->
+
+
+    <section id="secaoDois" class="espacamentoC">
+        <div class="container">
+            <div class="row">
+                <div id="fotos" class="col-md-4 align-self-center" style="border: 6px solid black;">
+
+                    <div class="row albuns">
+                        <div class="col-md-6">
+                            <img src="../bootstrap/imagens/img1.png" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="../bootstrap/imagens/img2.png" class="img-fluid rounded">
+                        </div>
+                    </div>
+
+                    <div class="row albuns">
+                        <div class="col-md-6">
+                            <img src="../bootstrap/imagens/img3.png" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <img src="../bootstrap/imagens/img4.png" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 align-self-center">
+                    <div class="text-center">
+                        <h2>Componentes do Mint</h2>
+                        <h3>Diversão e Facilidade</h3>
+                        <p>O Linux Mint traz diversão ao mesmo tempo que facilita seu trabalho.</p>
+                        <h3>Simplicidade e Leveza</h3>
+                        <p>Com o Linux Mint XFCE você tem um ambiente simples e muito leve, funcionando até mesmo em PCs
+                            Low-End de
+                            até 1GB de RAM. Travar é algo que não acontece por aqui😆!</p>
+                        <h3>Novos Lançamentos</h3>
+                        <p>A Comunidade Linux é muito ativa, portanto você terá sempre o SO mais atualizado💻🖥️.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim do Row -->
+        </div>
+        <!-- Fim do Container -->
+    </section>
+    <!-- Fim da Seção 2 -->
+
+
+
+    <section id="secaoTres" class="espacamentoC">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <h2>Versões</h2>
+                    <h3>Ambientes Variados</h3>
+                    <p>
+                        Ambientes Diferentes, totalmente personalizáveis!
+                    </p>
+
+                    <h3>Navegar</h3>
+                    <p>
+                        Navegue de forma segura e rápida!
+                    </p>
+
+                    <h3>Descobrir</h3>
+                    <p>
+                        Descubra novas aplicações, mesmo as simples ou as mais complexas!
+                    </p>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div id="carousel-Mint2" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselMint2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselMint2" data-slide-to="1"></li>
+                            <li data-target="#carouselMint2" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../bootstrap/imagens/cinnamon.png" class="img-fluid rounded">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 style="color: rgb(111, 212, 2);">Cinnamon</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../bootstrap/imagens/mate.png" class="img-fluid rounded">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 style="color: rgb(104, 201, 0);">Mate</h3>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../bootstrap/imagens/xfce.png" class="img-fluid rounded">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h3 style="color: rgb(96, 185, 0);">XFCE</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Controle de Slides -->
+                        <a href="#carousel-Mint2" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a href="#carousel-Mint2" class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Fim do Row -->
+            </div>
+            <!-- Fim do Container -->
+    </section>
+    <!-- Fim da Seção 3 -->
+    <!-- Fim de todas as Seções -->
+
+
+
+    <!-- Inicio do Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../bootstrap/imagens/logomint.png">
+                </div>
+                <div class="col-md-2 align-self-center">
+                    <h4>A Distro</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="quemSomos.html">Quem Somos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="https://linuxmint-installation-guide.readthedocs.io/pt_BR/latest/"
+                                target="_blank">Guia de Instalação</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 align-self-center">
+                    <h4>Manuais</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="https://linuxmint.com/documentation/user-guide/Cinnamon/portuguese_brazil_18.0.pdf"
+                                target="_blank">Manual Cinnamon</a></li>
+                        <li><a href="https://linuxmint.com/documentation/user-guide/MATE/portuguese_brazil_17.0.pdf"
+                                target="_blank">Manual Mate</a></li>
+                        <li><a href="https://linuxmint.com/documentation/user-guide/Xfce/portuguese_brazil_18.0.pdf"
+                                target="_blank">Manual XFCE</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <a href="https://blog.linuxmint.com/" target="_blank" class="fa fa-wordpress"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/linux_mint" target="_blank" class="fa fa-twitter"></a>
+                        <li>
+                            <a href="https://www.facebook.com/Linux-Mint-185238108180410/" target="_blank"
+                                class="fa fa-facebook"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container" id="direitos">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 class="text-center" style="color: whitesmoke;">Todos os Direitos Reservados</h6>
+                        <a href="https://jrdeveloper200.github.io/Isac-Junior.github.io/">
+                            <h6 class="text-center">&#9400;Desenvolvido por AJST</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Fim do Container -->
+    </footer>
+    <!-- Fim do Rodapé -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

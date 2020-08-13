@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Add icones sociais library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/validator.min.js"></script>
+
+
+    <title>Contato</title>
+    <link rel="icon" href="imagens/mintlogo.svg">
+</head>
+
+<body>
+    <!-- Inicio do Cabeçalho -->
+    <header>
+        <!--Barra de Navegação-->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-opacidade">
+
+            <!-- Div container para alinhar todos os elementos da barra com a página de forma responsiva -->
+            <!-- Inicio da DIV Container -->
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <img src="imagens/logomint.png">
+                </a>
+
+                <!--Botão de Navegação-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <!-- Fim do Botão de Navegação -->
+
+                <!--Inicio da DIV Menu-->
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <!-- Inicio do Menu -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="quemSomos.html" class="nav-link">Quem Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contato.html" class="nav-link">Contato</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Downloads</a>
+                            <div class="dropdown-menu">
+                                <a href="http://mint.c3sl.ufpr.br/stable/19.3/linuxmint-19.3-cinnamon-64bit.iso"
+                                    class="dropdown-item">Cinnamon-64bit</a>
+                                <a href="http://mint.c3sl.ufpr.br/stable/19.3/linuxmint-19.3-mate-64bit.iso"
+                                    class="dropdown-item">Mate-64bit</a>
+                                <a href="http://mint.c3sl.ufpr.br/stable/19.3/linuxmint-19.3-xfce-64bit.iso"
+                                    class="dropdown-item">XFCE-64bit - Lite</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Fim do Menu -->
+            </div>
+            <!-- Fim da DIV Menu -->
+            </div>
+            <!-- Fim da DIV Container -->
+        </nav>
+        <!-- Fim da Barra de Navegação -->
+    </header>
+    <!-- Fim do Cabeçalho -->
+
+    <!--Conteudo-->
+
+    <br><br><br><br>
+    <section id="formulario" class="espacamentoC">
+        <h2 class="text-center">Suporte Linux Mint Brasil</h2>
+        <div class="container align-self-center">
+            <form class="form" role="form" data-toggle="validator" method="POST" action="##">
+                <div class="form-group">
+                    <h4>Nome: <br></h4>
+                    <input type="text" name="nome" class="form-control" placeholder="Nome Completo" required><br>
+
+                    <h4>Numero para Contato: <br></h4>
+                    <input type="phone" name="tel" class="form-control" placeholder="Somente Números" required><br>
+
+                    <h4>Assunto: <br></h4>
+                    <input type="text" name="assunto" class="form-control" placeholder="Título Breve Sobre o Assunto"
+                        required><br>
+
+                    <h4>Descrição: <br></h4>
+                    <textarea name="descricao" id="descricao" class="form-control" rows="3"
+                        placeholder="Descrição Detalhada" required></textarea>
+                    <br>
+                    <input type="submit" class="btn btn-success rounded" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <!-- Inicio do Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="../bootstrap/imagens/logomint.png">
+                </div>
+                <div class="col-md-2 align-self-center">
+                    <h4>A Distro</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="quemSomos.html">Quem Somos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="https://linuxmint-installation-guide.readthedocs.io/pt_BR/latest/"
+                                target="_blank">Guia de Instalação</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 align-self-center">
+                    <h4>Manuais</h4>
+                    <ul class="navbar-nav">
+                        <li><a href="https://linuxmint.com/documentation/user-guide/Cinnamon/portuguese_brazil_18.0.pdf"
+                                target="_blank">Manual Cinnamon</a></li>
+                        <li><a href="https://linuxmint.com/documentation/user-guide/MATE/portuguese_brazil_17.0.pdf"
+                                target="_blank">Manual Mate</a></li>
+                        <li><a href="https://linuxmint.com/documentation/user-guide/Xfce/portuguese_brazil_18.0.pdf"
+                                target="_blank">Manual XFCE</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li>
+                            <a href="https://blog.linuxmint.com/" target="_blank" class="fa fa-wordpress"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/linux_mint" target="_blank" class="fa fa-twitter"></a>
+                        <li>
+                            <a href="https://www.facebook.com/Linux-Mint-185238108180410/" target="_blank"
+                                class="fa fa-facebook"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="container" id="direitos">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6 class="text-center" style="color: whitesmoke;">Todos os Direitos Reservados</h6>
+                        <a href="https://jrdeveloper200.github.io/Isac-Junior.github.io/">
+                            <h6 class="text-center">&#9400;Desenvolvido por AJST</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Fim do Container -->
+    </footer>
+    <!-- Fim do Rodapé -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

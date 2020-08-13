@@ -1,0 +1,375 @@
+/* BARRA DE NAVEGAÇÃO */
+/*  */
+nav.navbar-opacidade {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #a6e268;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    background: rgb(111, 212, 2);
+}
+
+.navbar-light .navbar-toggler-icon {
+    border-color: white;
+    border-radius: .25rem;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* .navbar-light .navbar-nav .active>.nav-link, 
+/* .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #49ef55;
+} */
+
+/*  */
+
+
+/* LAYOUT */
+/*  */
+html,
+body,
+#secaoUm {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(../imagens/Linux_Mint_19.png),
+        url(../imagens/frenteCapa.png),
+        linear-gradient(50deg, #666666, #6BAA25);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Classe Alert Sobreescrita - Backgrounds */
+.alert-primary {
+    background-color: white;
+    border-color: white;
+}
+
+
+/*  */
+
+
+/* SEÇÃO 1 */
+/*  */
+.btn-customizado {
+    color: white;
+    border-radius: 500px;
+    -webkit-webkit: border radius 500;
+    -moz-webkit: border radius 500;
+    -ms-webkit: border radius 500;
+    -o-webkit: border radius 500;
+    padding: 10px 20 px;
+    text-transform: uppercase;
+}
+
+.btn-preto {
+    background: #000;
+}
+
+.btn-preto:hover {
+    background: #6BAA25;
+    color: white;
+}
+
+.btn-branco {
+    border: 2px solid white
+}
+
+.btn-branco:hover {
+    background: #6BAA25;
+    color: black;
+}
+
+/*  */
+
+/* DEMAIS SEÇÕES E CONTEUDOS */
+/*  */
+.espacamentoC {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#secaoDois {
+    background-color: whitesmoke;
+    font-weight: bolder;
+}
+
+#secaoDois h2,
+h3 {
+    color: rgb(111, 212, 2);
+}
+
+#secaoTres {
+    color: whitesmoke;
+}
+
+#secaoTres h2 {
+    color: white;
+    text-shadow: -5px 2px black;
+}
+
+#secaoTres h3 {
+    color: #B3DC8A;
+}
+
+.albuns {
+    padding: 10px 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 3%;
+
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+/* .rotacionar {
+    -ms-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+    padding-left: 80px;
+    padding-top: 30px;
+} */
+/*  */
+
+/* QUEM SOMOS FORMATAÇÃO */
+/*  */
+#somos p,
+li {
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#somos h2 {
+    color: rgb(111, 212, 2);
+}
+
+#somos1:hover {
+    border: 5px solid black;
+    border-radius: 5%;
+    background: rgba(111, 212, 2, 0.2);
+    margin-top: -10px;
+}
+
+hr {
+    padding: 2px;
+    background: black;
+}
+
+#somos1 hr {
+    padding: 2px;
+    background: white;
+}
+
+#somos2:hover {
+    border: 5px solid black;
+    border-radius: 5%;
+    background: rgba(255, 255, 255, 0.274);
+    margin-top: -10px;
+}
+
+
+
+
+/*  */
+
+/* CONTATO FORMULÁRIO */
+/*  */
+#formulario h4 {
+    color: white;
+    text-shadow: -5px 2px black;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+#formulario h2 {
+    color: white;
+    text-shadow: -5px 2px black;
+}
+
+/*  */
+
+/* RODAPÉ */
+/*  */
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+
+footer h4 {
+    margin-top: 20px;
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+
+footer .navbar-nav a {
+    color: whitesmoke;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color: #a6e268;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 2px 5px;
+}
+
+#direitos {
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+#direitos a {
+    text-decoration: none;
+    color: white;
+}
+
+#direitos a:hover {
+    text-decoration: none;
+    color: seagreen;
+}
+
+/* Style all font awesome icons */
+
+.fa {
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa-facebook:hover {
+    background: #3B5998;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-twitter:hover {
+    background: #2AA9E0;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-wordpress:hover {
+    background: #21759B;
+    color: white;
+    text-decoration: none;
+}
+
+/*  */
+
+/* TIPOGRAFIA */
+/*  */
+h1 {
+    font-weight: 900;
+    margin-bottom: 50px;
+    color: whitesmoke;
+    text-shadow: -10px 2px black;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+/*  */
+
+/* Media Queries*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .btn-customizado {
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    /* #fotos {
+    flex: 0 0 45%;
+    max-width: 45%;
+} */
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6em;
+    }
+}
